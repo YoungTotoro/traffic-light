@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{GREEN}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{13}\PYG{p}{;}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{YELLOW}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{12}\PYG{p}{;}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{RED}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{11}\PYG{p}{;}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{setup}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+
+\PYG{+w}{  }\PYG{n}{pinMode}\PYG{p}{(}\PYG{n}{GREEN}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{OUTPUT}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{pinMode}\PYG{p}{(}\PYG{n}{YELLOW}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{OUTPUT}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{pinMode}\PYG{p}{(}\PYG{n}{RED}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{OUTPUT}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{loop}\PYG{p}{()\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{digitalWrite}\PYG{p}{(}\PYG{n}{GREEN}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{HIGH}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{5000}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{DigitalWrite}\PYG{p}{(}\PYG{n}{GREEN}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{LOW}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{digitalWrite}\PYG{p}{(}\PYG{n}{YELLOW}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{HIGH}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{2000}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{DigitalWrite}\PYG{p}{(}\PYG{n}{YELLOW}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{LOW}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{digitalWrite}\PYG{p}{(}\PYG{n}{RED}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{HIGH}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{4000}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{DigitalWrite}\PYG{p}{(}\PYG{n}{RED}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{LOW}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\end{Verbatim}
